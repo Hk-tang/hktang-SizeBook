@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">hktang-SizeBook</string>
+    <string name="Add">Add</string>
+    <string name="Edit">Edit</string>
+    <string name="Save">Save</string>
+    <string name="Delete">Delete</string>
+
+    <string name="Name">Name</string>
+    <string name="Date">Date</string>
+    <string name="Neck">Neck Circumference</string>
+    <string name="Bust">Bust Circumference</string>
+    <string name="Chest">Chest Circumference</string>
+    <string name="Waist">Waist Circumference</string>
+    <string name="Hip">Hip Circumference</string>
+    <string name="Inseam">Inseam Length</string>
+    <string name="Comment">Comment</string>
+
+</resources>
