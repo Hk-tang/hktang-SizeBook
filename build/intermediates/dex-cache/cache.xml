@@ -3,75 +3,30 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\HenzoShimada\AndroidStudioProjects\hktang-SizeBook\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
+        jar="C:\Users\HenzoShimada\Documents\Homework\Cmput 301\hktang-SizeBook\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
-        <dex dex="C:\Users\HenzoShimada\AndroidStudioProjects\hktang-SizeBook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.0_32ebada43e9e06c95dc63cdcb0010d51e15665ae\classes.dex" />
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="C:\Users\HenzoShimada\Documents\Homework\Cmput 301\hktang-SizeBook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.0_6e9e42f556375f431db6954e01103843f348f32d\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\HenzoShimada\AndroidStudioProjects\hktang-SizeBook\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
+        jar="C:\Users\HenzoShimada\Documents\Homework\Cmput 301\hktang-SizeBook\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\HenzoShimada\AndroidStudioProjects\hktang-SizeBook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.0_7679144a9529e65e334c6257dadee6a45402a420\classes.dex" />
+        sha1="53560e10e28148e0f688c9550161c54822dfd04e">
+        <dex dex="C:\Users\HenzoShimada\Documents\Homework\Cmput 301\hktang-SizeBook\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_516fa2cca06fe28ee47748b6bea729659f65c77d\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\HenzoShimada\AndroidStudioProjects\hktang-SizeBook\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\HenzoShimada\Documents\Homework\Cmput 301\hktang-SizeBook\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="8c35d34e605a97d9a9bb96f9fce44b72d2120cc4">
-        <dex dex="C:\Users\HenzoShimada\AndroidStudioProjects\hktang-SizeBook\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_7813b78d6a9c974d3a68dd4d77e5be27b778e83d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\HenzoShimada\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
-        <dex dex="C:\Users\HenzoShimada\AndroidStudioProjects\hktang-SizeBook\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_5d71f687bd41fd04233c87eebe5e874e1240c7b9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\HenzoShimada\AndroidStudioProjects\hktang-SizeBook\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
-        <dex dex="C:\Users\HenzoShimada\AndroidStudioProjects\hktang-SizeBook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.0_eb4c18fed4932a6bb2945f4c573c153da7d97f3b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\HenzoShimada\AndroidStudioProjects\hktang-SizeBook\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="201a502420e17d175f0f2c45d2f3095e27e9dd2a">
-        <dex dex="C:\Users\HenzoShimada\AndroidStudioProjects\hktang-SizeBook\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_af5c45d136cfe6a653685a91e8f578f718e60bfd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\HenzoShimada\AndroidStudioProjects\hktang-SizeBook\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
-        <dex dex="C:\Users\HenzoShimada\AndroidStudioProjects\hktang-SizeBook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.0_a9c701be198b56efebb6bfac556c2ab2900ce432\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\HenzoShimada\AndroidStudioProjects\hktang-SizeBook\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
-        <dex dex="C:\Users\HenzoShimada\AndroidStudioProjects\hktang-SizeBook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.0_34d26682796ddb318e419dffc14b480a654980e8\classes.dex" />
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="C:\Users\HenzoShimada\Documents\Homework\Cmput 301\hktang-SizeBook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.0_f1be2bba1850d8a5abc4335310b36c36e5ccb63e\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -80,43 +35,88 @@
         optimize="true"
         revision="25.0.2"
         sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
-        <dex dex="C:\Users\HenzoShimada\AndroidStudioProjects\hktang-SizeBook\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.8.0_9b0473af2daeaa0b3e64dd8d4363930a64ee69f9\classes.dex" />
+        <dex dex="C:\Users\HenzoShimada\Documents\Homework\Cmput 301\hktang-SizeBook\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.8.0_9b0473af2daeaa0b3e64dd8d4363930a64ee69f9\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\HenzoShimada\AndroidStudioProjects\hktang-SizeBook\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+        jar="C:\Users\HenzoShimada\Documents\Homework\Cmput 301\hktang-SizeBook\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="C:\Users\HenzoShimada\Documents\Homework\Cmput 301\hktang-SizeBook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.0_e6bb3a84f5e7a566cc2e28d1d0472a464cafcee3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\HenzoShimada\Documents\Homework\Cmput 301\hktang-SizeBook\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="aee64634871d88a419d59eb743c1258a60f19700">
-        <dex dex="C:\Users\HenzoShimada\AndroidStudioProjects\hktang-SizeBook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_ece4786594b273e5a3ad8482d4d19a101246396a\classes.dex" />
+        <dex dex="C:\Users\HenzoShimada\Documents\Homework\Cmput 301\hktang-SizeBook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_0ebbf5bdcb148d8cd257e096165cabfc8c1c3da2\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\HenzoShimada\AndroidStudioProjects\hktang-SizeBook\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
-        <dex dex="C:\Users\HenzoShimada\AndroidStudioProjects\hktang-SizeBook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.0_439326b37f8c86f35ca6705a69edb4bc4261fbcd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\HenzoShimada\AndroidStudioProjects\hktang-SizeBook\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
-        <dex dex="C:\Users\HenzoShimada\AndroidStudioProjects\hktang-SizeBook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.0_6b1ee6c45285a736611cdf74caf1725ee9856f1e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\HenzoShimada\AndroidStudioProjects\hktang-SizeBook\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        jar="C:\Users\HenzoShimada\Documents\Homework\Cmput 301\hktang-SizeBook\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="C:\Users\HenzoShimada\AndroidStudioProjects\hktang-SizeBook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.0_f7da5181013e0d854e0c4384afa53cbf941b8def\classes.dex" />
+        <dex dex="C:\Users\HenzoShimada\Documents\Homework\Cmput 301\hktang-SizeBook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.0_ea93ab3f98b0dd5b3da30d898932f66d44d760aa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\HenzoShimada\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="C:\Users\HenzoShimada\Documents\Homework\Cmput 301\hktang-SizeBook\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_5d71f687bd41fd04233c87eebe5e874e1240c7b9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\HenzoShimada\Documents\Homework\Cmput 301\hktang-SizeBook\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="C:\Users\HenzoShimada\Documents\Homework\Cmput 301\hktang-SizeBook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.0_f21f5767f8c761880bdce4b76e6d821808464fb7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\HenzoShimada\Documents\Homework\Cmput 301\hktang-SizeBook\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\HenzoShimada\Documents\Homework\Cmput 301\hktang-SizeBook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.0_8e616812b891f3c4c5849f345a45bd2dbf2e89fc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\HenzoShimada\Documents\Homework\Cmput 301\hktang-SizeBook\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="C:\Users\HenzoShimada\Documents\Homework\Cmput 301\hktang-SizeBook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.0_b0222693ff5863702482d89b4b2b541bd80a155f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\HenzoShimada\Documents\Homework\Cmput 301\hktang-SizeBook\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="C:\Users\HenzoShimada\Documents\Homework\Cmput 301\hktang-SizeBook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.0_6112f9442198e0a97253fed4edc6701e7ce61a96\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\HenzoShimada\Documents\Homework\Cmput 301\hktang-SizeBook\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="078d918cf65f7eacd8200f881f9606f1c4b38e75">
+        <dex dex="C:\Users\HenzoShimada\Documents\Homework\Cmput 301\hktang-SizeBook\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_0b106f317adab18dfd9c7c7f7b2d1682957a816e\classes.dex" />
     </item>
 
 </items>

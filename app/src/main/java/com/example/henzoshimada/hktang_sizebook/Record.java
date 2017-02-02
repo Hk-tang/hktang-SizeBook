@@ -1,5 +1,7 @@
 package com.example.henzoshimada.hktang_sizebook;
 
+import java.io.Serializable;
+
 /**
  * Created by HenzoShimada on 2017-01-26.
  */
@@ -96,5 +98,14 @@ public class Record {
     public void setComment(String comment) {
 
         this.comment = comment;
+    }
+
+    @Override
+    public String toString(){
+         return "Name: " + getName()+ "\n"
+                 + "Bust Circumference: " + getBust()+ "\n"
+                 + "Chest Circumference: " + getChest()+ "\n"
+                 + "Waist Circumference: " + getWaist()+ "\n"
+                 + "Inseam Length: " + getInseam();
     }
 }

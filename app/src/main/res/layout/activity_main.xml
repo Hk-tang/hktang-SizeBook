@@ -11,16 +11,12 @@
     android:orientation="vertical"
     tools:context="com.example.henzoshimada.hktang_sizebook.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Welcome to SizeBook." />
     <!--Taken from LonelyTwitter Git Repo https://github.com/joshua2ua/lonelyTwitter/tree/master/app/src/main/res/layout
     Taken on January 26, 2017 14:25-->
     <ListView
         android:id="@+id/oldRecordList"
         android:layout_width="fill_parent"
-        android:layout_height="263dp"
+        android:layout_height="512dp"
         android:layout_weight="1"
         android:scrollbars="vertical" >
 
