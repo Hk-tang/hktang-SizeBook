@@ -150,11 +150,20 @@ public class Record {
     }
 
     @Override
-    public String toString(){
-         return "Name: " + getName()+ "\n"
-                 + "Bust Circumference: " + getBust()+ "\n"
-                 + "Chest Circumference: " + getChest()+ "\n"
-                 + "Waist Circumference: " + getWaist()+ "\n"
-                 + "Inseam Length: " + getInseam();
+    public String toString() {
+        String display = "Name: " + getName() + "\n";
+        if(this.getBust() != null ){
+            display += "Bust Circumference: " + getBust() + "\n";
+        }
+        if(this.getChest() != null){
+            display += "Chest Circumference: " + getChest() + "\n";
+        }
+        if(this.getWaist() != null){
+            display += "Waist Circumference: " + getWaist() + "\n";
+        }
+        if(this.getInseam() != null) {
+            display += "Inseam Length: " + getInseam();
+        }
+        return display;
     }
 }

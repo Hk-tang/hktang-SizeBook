@@ -9,6 +9,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -28,13 +29,15 @@ public class MainActivity extends AppCompatActivity {
     private ListView oldRecordList;
     private ListView recordList;
     private ArrayList<Record> RecordList;
-    private ArrayAdapter<Record> adapter;
+    private TextView counter;
+    //private ArrayAdapter<Record> adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        counter = (TextView) findViewById(R.id.counter);
         oldRecordList = (ListView) findViewById(R.id.oldRecordList);
     }
     public void EditButton(View view) {
@@ -52,6 +55,8 @@ public class MainActivity extends AppCompatActivity {
         super.onStart();
         loadFromFile();
 
+        Integer numRecords = RecordList.size();
+        counter.setText(String.format("%d",numRecords));
 
         Log.d("tag","Main on Start");
 
