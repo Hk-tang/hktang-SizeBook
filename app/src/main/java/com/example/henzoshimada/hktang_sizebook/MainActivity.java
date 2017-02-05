@@ -30,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
     private ListView recordList;
     private ArrayList<Record> RecordList;
     private TextView counter;
-    //private ArrayAdapter<Record> adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,8 +61,6 @@ public class MainActivity extends AppCompatActivity {
 
         Log.d("tag","record list: "+RecordList.toString());
         displayRecords(RecordList);
-        //adapter = new ArrayAdapter<Record>(this, android.R.layout.simple_list_item_1, RecordList);
-        //oldRecordList.setAdapter(adapter);
 
         // Taken From: https://teamtreehouse.com/community/how-can-i-open-a-new-activity-when-an-item-is-clicked-on-in-the-listview
         // 2017-02-02 15:33
@@ -101,8 +98,6 @@ public class MainActivity extends AppCompatActivity {
             Type listType = new TypeToken<ArrayList<Record>>() {
             }.getType();
             RecordList = gson.fromJson(in, listType);
-
-            //displayRecords(RecordList);
 
         } catch (FileNotFoundException e) {
             Log.d("tag","file not found exception");
