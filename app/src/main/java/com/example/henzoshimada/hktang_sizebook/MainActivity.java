@@ -3,6 +3,7 @@ package com.example.henzoshimada.hktang_sizebook;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -38,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void EditButton(View view) {
         Intent intent = new Intent(this, EditRecord.class);
+        intent.putExtra("position", -1);
         startActivity(intent);
     }
 
@@ -50,8 +52,13 @@ public class MainActivity extends AppCompatActivity {
         super.onStart();
         loadFromFile();
 
-        adapter = new ArrayAdapter<Record>(this, android.R.layout.simple_list_item_1, RecordList);
-        oldRecordList.setAdapter(adapter);
+
+        Log.d("tag","Main on Start");
+
+        Log.d("tag","record list: "+RecordList.toString());
+        displayRecords(RecordList);
+        //adapter = new ArrayAdapter<Record>(this, android.R.layout.simple_list_item_1, RecordList);
+        //oldRecordList.setAdapter(adapter);
 
         // Taken From: https://teamtreehouse.com/community/how-can-i-open-a-new-activity-when-an-item-is-clicked-on-in-the-listview
         // 2017-02-02 15:33
@@ -59,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                     Intent myIntent = new Intent(view.getContext(), EditRecord.class);
+                    myIntent.putExtra("position", position);
                     startActivityForResult(myIntent, 0);
                 }
             }
@@ -66,14 +74,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void displayRecords(ArrayList<Record> RecordList){
+        Log.d("tag","Display Records");
         recordList = (ListView) findViewById(R.id.oldRecordList);
 
         ArrayAdapter<Record> displayAdapter = new ArrayAdapter<Record>(this, android.R.layout.simple_list_item_1, RecordList);
         recordList.setAdapter(displayAdapter);
         displayAdapter.notifyDataSetChanged();
+        Log.d("tag","done Display Records");
     }
 
     private void loadFromFile() {
+        Log.d("tag","MainLoadFile");
         try {
             FileInputStream fis = openFileInput(FILENAME);
             BufferedReader in = new BufferedReader(new InputStreamReader(fis));
@@ -86,9 +97,10 @@ public class MainActivity extends AppCompatActivity {
             }.getType();
             RecordList = gson.fromJson(in, listType);
 
-            displayRecords(RecordList);
+            //displayRecords(RecordList);
 
         } catch (FileNotFoundException e) {
+            Log.d("tag","file not found exception");
             RecordList = new ArrayList<Record>();
         } catch (IOException e) {
             throw new RuntimeException();
