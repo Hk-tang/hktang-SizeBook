@@ -129,14 +129,14 @@ public class Record {
             if (datePieces.size() != 3) {
                 throw new IndexOutOfBoundsException();
             }
-            Integer year = Integer.parseInt(datePieces.get(0));
+            
             Integer month = Integer.parseInt(datePieces.get(1));
             Integer day = Integer.parseInt(datePieces.get(2));
 
-            if ((year < 1800) || (year > 2017)) {
+            if ((month < 1) || (month > 12)) {
                 throw new IndexOutOfBoundsException();
             }
-            if ((month < 1) || (month > 12)) {
+            if((day < 1) || (day > 31)){
                 throw new IndexOutOfBoundsException();
             }
 
