@@ -115,7 +115,7 @@ public class Record {
     /**
      * Sets date.
      *
-     * @param date the date
+     * Formats the date and assures proper input
      */
     public void setDate(String date) {
 
@@ -146,7 +146,7 @@ public class Record {
 
     /**
      * Sets neck.
-     *
+     * Formats the neck field
      * @param neckText the neck text
      */
     public void setNeck(String neckText) {
@@ -163,7 +163,7 @@ public class Record {
 
     /**
      * Sets bust.
-     *
+     * Formats the bust field
      * @param bustText the bust text
      */
     public void setBust(String bustText) {
@@ -178,7 +178,7 @@ public class Record {
 
     /**
      * Sets chest.
-     *
+     * Formats the chest field
      * @param chestText the chest text
      */
     public void setChest(String chestText) {
@@ -193,7 +193,7 @@ public class Record {
 
     /**
      * Sets waist.
-     *
+     * Formats the waist field
      * @param waistText the waist text
      */
     public void setWaist(String waistText) {
@@ -208,7 +208,7 @@ public class Record {
 
     /**
      * Sets hip.
-     *
+     * Formats the hip field
      * @param hipText the hip text
      */
     public void setHip(String hipText) {
@@ -223,7 +223,7 @@ public class Record {
 
     /**
      * Sets inseam.
-     *
+     * Formats the inseam field
      * @param inseamText the inseam text
      */
     public void setInseam(String inseamText) {
@@ -246,6 +246,7 @@ public class Record {
         this.comment = comment;
     }
 
+    // This is what is shown on the Main screen when the records are listed
     @Override
     public String toString() {
         String display = "Name: " + getName() + "\n";
