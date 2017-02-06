@@ -24,7 +24,10 @@ import com.google.gson.reflect.TypeToken;
 import com.google.gson.stream.JsonReader;
 
 /**
- * The type Main activity.
+ * The Main activity.
+ * This class is the main view class of the project. 
+ * In this class we provide a view of the records and a counter for how many there are
+ * All files are in the form of "json" files that are stored in Emulator's accessible from Android Device Monitor
  */
 public class MainActivity extends AppCompatActivity {
 
@@ -36,6 +39,10 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        /**
+            Creates a listview instance to hold the old records
+            creates a counter for the number of records
+        */
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -46,7 +53,8 @@ public class MainActivity extends AppCompatActivity {
     /**
      * Edit button.
      *
-     * @param view the view
+     * When the edit button is selected then go to the second screen
+     * 
      */
     public void EditButton(View view) {
         Intent intent = new Intent(this, EditRecord.class);
@@ -59,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
     Taken on January 26, 2017 15:05*/
     @Override
     protected void onStart() {
-        // TODO Auto-generated method stub
+        // Loads the old records from file
         super.onStart();
         loadFromFile();
 
@@ -73,6 +81,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Taken From: https://teamtreehouse.com/community/how-can-i-open-a-new-activity-when-an-item-is-clicked-on-in-the-listview
         // 2017-02-02 15:33
+        // If a record is selected then send this specific record to the second screen
         oldRecordList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -84,6 +93,9 @@ public class MainActivity extends AppCompatActivity {
         );
     }
 
+    /**
+     * Displays the records on the main screen in a list view
+    */
     private void displayRecords(ArrayList<Record> RecordList){
         Log.d("tag","Display Records");
         recordList = (ListView) findViewById(R.id.oldRecordList);
@@ -94,6 +106,7 @@ public class MainActivity extends AppCompatActivity {
         Log.d("tag","done Display Records");
     }
 
+    // Load the old records
     private void loadFromFile() {
         Log.d("tag","MainLoadFile");
         try {
