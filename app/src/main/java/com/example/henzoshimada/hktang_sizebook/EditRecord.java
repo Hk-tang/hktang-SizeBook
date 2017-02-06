@@ -116,8 +116,10 @@ public class EditRecord extends AppCompatActivity {
      * @param view the view
      */
     public void deleteData(View view){
-        recordList.remove(position.intValue());
-        saveInFile();
+        if(position != -1) {
+            recordList.remove(position.intValue());
+            saveInFile();
+        }
         finish();
     }
 
