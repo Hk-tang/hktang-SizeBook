@@ -11,7 +11,6 @@ import java.util.List;
 /**
  * Created by HenzoShimada on 2017-01-26.
  */
-
 public class Record {
     private String name;
     private String date;
@@ -23,38 +22,101 @@ public class Record {
     private Double inseam;
     private String comment;
 
+    /**
+     * Instantiates a new Record.
+     *
+     * @param name the name
+     */
     public Record(String name) {
         this.name = name;
     }
 
+    /**
+     * Gets name.
+     *
+     * @return the name
+     */
     public String getName() {
         return name;
     }
+
+    /**
+     * Gets date.
+     *
+     * @return the date
+     */
     public String getDate() {
         return date;
     }
+
+    /**
+     * Gets neck.
+     *
+     * @return the neck
+     */
     public Double getNeck() {
         return neck;
     }
+
+    /**
+     * Gets bust.
+     *
+     * @return the bust
+     */
     public Double getBust() {
         return bust;
     }
+
+    /**
+     * Gets chest.
+     *
+     * @return the chest
+     */
     public Double getChest() {
         return chest;
     }
+
+    /**
+     * Gets waist.
+     *
+     * @return the waist
+     */
     public Double getWaist() {
         return waist;
     }
+
+    /**
+     * Gets hip.
+     *
+     * @return the hip
+     */
     public Double getHip() {
         return hip;
     }
+
+    /**
+     * Gets inseam.
+     *
+     * @return the inseam
+     */
     public Double getInseam() {
         return inseam;
     }
+
+    /**
+     * Gets comment.
+     *
+     * @return the comment
+     */
     public String getComment() {
         return comment;
     }
 
+    /**
+     * Sets date.
+     *
+     * @param date the date
+     */
     public void setDate(String date) {
 
         if (date.length() != 0) {
@@ -82,6 +144,11 @@ public class Record {
         }
     }
 
+    /**
+     * Sets neck.
+     *
+     * @param neckText the neck text
+     */
     public void setNeck(String neckText) {
         if(neckText.length() != 0) {
             Double neck = Double.parseDouble(neckText);
@@ -94,6 +161,11 @@ public class Record {
         }
     }
 
+    /**
+     * Sets bust.
+     *
+     * @param bustText the bust text
+     */
     public void setBust(String bustText) {
         if(bustText.length() != 0) {
             Double bust = Double.parseDouble(bustText);
@@ -104,6 +176,11 @@ public class Record {
         }
     }
 
+    /**
+     * Sets chest.
+     *
+     * @param chestText the chest text
+     */
     public void setChest(String chestText) {
         if(chestText.length() != 0){
             Double chest = Double.parseDouble(chestText);
@@ -114,6 +191,11 @@ public class Record {
         }
     }
 
+    /**
+     * Sets waist.
+     *
+     * @param waistText the waist text
+     */
     public void setWaist(String waistText) {
         if(waistText.length() != 0) {
             Double waist = Double.parseDouble(waistText);
@@ -124,6 +206,11 @@ public class Record {
         }
     }
 
+    /**
+     * Sets hip.
+     *
+     * @param hipText the hip text
+     */
     public void setHip(String hipText) {
         if(hipText.length() != 0) {
             Double hip = Double.parseDouble(hipText);
@@ -134,6 +221,11 @@ public class Record {
         }
     }
 
+    /**
+     * Sets inseam.
+     *
+     * @param inseamText the inseam text
+     */
     public void setInseam(String inseamText) {
         if(inseamText.length() != 0) {
             Double inseam = Double.parseDouble(inseamText);
@@ -144,6 +236,11 @@ public class Record {
         }
     }
 
+    /**
+     * Sets comment.
+     *
+     * @param comment the comment
+     */
     public void setComment(String comment) {
 
         this.comment = comment;

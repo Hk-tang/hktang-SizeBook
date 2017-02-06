@@ -23,6 +23,9 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.google.gson.stream.JsonReader;
 
+/**
+ * The type Main activity.
+ */
 public class MainActivity extends AppCompatActivity {
 
     private static final String FILENAME = "file.sav";
@@ -39,6 +42,12 @@ public class MainActivity extends AppCompatActivity {
         counter = (TextView) findViewById(R.id.counter);
         oldRecordList = (ListView) findViewById(R.id.oldRecordList);
     }
+
+    /**
+     * Edit button.
+     *
+     * @param view the view
+     */
     public void EditButton(View view) {
         Intent intent = new Intent(this, EditRecord.class);
         intent.putExtra("position", -1);

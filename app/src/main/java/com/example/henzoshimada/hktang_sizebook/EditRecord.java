@@ -26,6 +26,9 @@ import java.io.OutputStreamWriter;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 
+/**
+ * The type Edit record.
+ */
 public class EditRecord extends AppCompatActivity {
 
     private static final String FILENAME = "file.sav";
@@ -107,12 +110,22 @@ public class EditRecord extends AppCompatActivity {
 
     }
 
+    /**
+     * Delete data.
+     *
+     * @param view the view
+     */
     public void deleteData(View view){
         recordList.remove(position.intValue());
         saveInFile();
         finish();
     }
 
+    /**
+     * Save data.
+     *
+     * @param view the view
+     */
     public void saveData(View view) {
 
         try {
