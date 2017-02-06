@@ -66,7 +66,7 @@ public class EditRecord extends AppCompatActivity {
         inseamField = (EditText) findViewById(R.id.InseamField);
         commentField = (EditText) findViewById(R.id.CommentField);
 
-
+        // If this is not a new addition, then restore the old values to the corresponding fields
         if (position != -1){
             Log.d("tag","Old Entry");
             nameField.setText(recordList.get(position).getName());
@@ -101,7 +101,7 @@ public class EditRecord extends AppCompatActivity {
 
     @Override
     protected void onStart() {
-        // TODO Auto-generated method stub
+        // Load the file in need of edition or addition
         super.onStart();
         loadFromFile();
 
@@ -113,7 +113,7 @@ public class EditRecord extends AppCompatActivity {
     /**
      * Delete data.
      *
-     * @param view the view
+     * Remove the record if it is not a new addition
      */
     public void deleteData(View view){
         if(position != -1) {
@@ -126,7 +126,7 @@ public class EditRecord extends AppCompatActivity {
     /**
      * Save data.
      *
-     * @param view the view
+     * Save the current record into a json
      */
     public void saveData(View view) {
 
